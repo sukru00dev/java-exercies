@@ -1,0 +1,37 @@
+name: WakaTime Stats
+
+on:
+  schedule:
+    # Her gün saat 00:00 UTC'de çalışır (Türkiye saati ile 03:00)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Manuel olarak da çalıştırılabilir
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update WakaTime stats
+        uses: athul/waka-readme@master
+        with:
+          WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+          SHOW_TITLE: true
+          SHOW_TIME: true
+          SHOW_MASKED_TIME: false
+          SHOW_TOTAL: true
+          SHOW_DAILY_AVERAGE: true
+          SHOW_LANGUAGE: true
+          SHOW_OS: true
+          SHOW_EDITORS: true
+          SHOW_PROJECTS: true
+          SHOW_LINES_OF_CODE: true
+          SHOW_COMMIT: true
+          SHOW_PROFILE_VIEWS: true
+          SHOW_LANGUAGE_PER_REPO: true
+          SHOW_LOC_CHART: true
+          SHOW_SHORT_INFO: true
+          SHOW_UPDATED_DATE: true
+          COMMIT_MESSAGE: '📊 WakaTime istatistikleri güncellendi'
+

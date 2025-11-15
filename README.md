@@ -62,6 +62,9 @@ java DosyaAdi
 
 WakaTime ile kod yazma sürelerimi takip ediyorum. Yukarıdaki badge ile detayları görebilirsiniz.
 
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
+
 ## 📄 Lisans
 
 Bu projeler eğitim amaçlıdır.
