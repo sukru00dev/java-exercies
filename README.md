@@ -1,4 +1,4 @@
-[![wakatime](https://wakatime.com/badge/user/XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX.svg)](https://wakatime.com/@XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX)
+[![wakatime](https://wakatime.com/badge/user/0a3f5e42-93eb-4d1e-9272-11eae8c43e7b.svg)](https://wakatime.com/@0a3f5e42-93eb-4d1e-9272-11eae8c43e7b)
 
 # Java Ödev Projeleri
 
